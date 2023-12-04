@@ -1,0 +1,75 @@
+.App {
+    color: black;
+    background-color: #131313;
+    height: 100vh;
+}
+
+
+.s1 {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 0 30px;
+
+    h1 {
+
+        width: 450px;
+        font: 95px 'tiltleFont';
+        color: aliceblue;
+    }
+
+    .starBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: aliceblue;
+        width: 52%;
+        font: 50px 'mainFont';
+
+        img {
+            position: relative;
+            left: 300px;
+            width: 120px;
+        }
+
+        h4 {
+
+            text-align: right;
+            width: 100%;
+
+        }
+
+        .btnContact {
+            display: flex;
+            justify-content: end;
+
+
+            h2 {
+                font-size: 25px;
+                letter-spacing: 2px;
+                border: #fff solid 2px;
+                padding: 5px 15px;
+                border-radius: 50px;
+                font-weight: 500;
+                cursor: pointer;
+                background-size: 0%;
+                transition: all 0.2s ease-in-out    ;
+
+
+                &:hover {
+                    background-color: #fff;
+                    color: #131313;
+                    letter-spacing: 1px;
+                }
+
+            }
+        }
+    }
+}
+
+#imgStart:hover{
+    .App {
+        background-color: #ffffff;
+        
+    }
+}

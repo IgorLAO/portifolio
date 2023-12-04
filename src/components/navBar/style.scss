@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    color: #fff;
+    padding: 10px 15px;
+    border-bottom: solid #fff 1px;
+    a{
+        padding: 5px;
+        margin: 10px;
+    }
+
+    h5{
+        font-size: 25px;
+    }
+
+    h3{
+        font: 20px 'tiltleFont2';
+    }
+  
+    h4{
+        font: 17px 'mainFont';
+    }
+
+    &:first-child span{
+        display: flex;
+        align-items: last baseline;
+    }
+}
